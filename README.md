@@ -8,8 +8,8 @@
 # override.tf.json, *_override.tf, *_override.tf.json
 # Включите переопределяющие файлы, которые вы хотите добавить в систему управления версиями,
 # используя шаблон !exemple_override.tf. Включите файлы tfplan, чтобы игнорировать вывод команды
-# plan:terraform-out=tfplan exmple :*tfplan*. Игнорировать файлы конфигурации CLI
+# plan:terraform-out=tfplan example :*tfplan*. Игнорировать файлы конфигурации CLI
 # .terraformrc terraform.rc
 #
-#
-# 7.02.2023 изменение файла
+#   
+# 7.02.2023 изменение файла \;
