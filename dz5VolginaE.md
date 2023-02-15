@@ -1,14 +1,14 @@
 1. #git clone https://github.com/hashicorp/terraform.git - клонироване репозитория на пк
-2. #1.PS E:\publik\devops\1402\terraform> git show aefea\
-3. ##commit aefead2207ef7e2aa5dc81a34aedf0cad4c32545 - полный хеш\ 
+2. #1.PS E:\publik\devops\1402\terraform> git show aefea
+3. ##commit aefead2207ef7e2aa5dc81a34aedf0cad4c32545 - полный хеш
 4. ##Update CHANGELOG.md
 5. 
-6. #2.PS E:\publik\devops\1402\terraform> git show 85024d3\
-7. ##commit 85024d3100126de36331c6982bfaac02cdab9e76 (tag: v0.12.23)\
+6. #2.PS E:\publik\devops\1402\terraform> git show 85024d3
+7. ##commit 85024d3100126de36331c6982bfaac02cdab9e76 (tag: v0.12.23)
 8. ##Author: tf-release-bot <terraform@hashicorp.com>
 9.
-10. #3.PS E:\publik\Devops\1402\terraform> git show --pretty=format:'%P' b8d720\
-11. ##56cd7859e05c36c06b56d013b55a252d0bb7e158 \
+10. #3.PS E:\publik\Devops\1402\terraform> git show --pretty=format:'%P' b8d720
+11. ##56cd7859e05c36c06b56d013b55a252d0bb7e158 
 12. ##9ea88f22fc6269854151c571162c5bcf958bee2b
 13.
 14. #4. PS E:\publik\Devops\1402\terraform> git log v0.12.23..v0.12.24 --pretty=oneline 
@@ -23,7 +23,7 @@
 23. ##dd01a35078f040ca984cdd349f18d0b67e486c35 Update CHANGELOG.md
 24. ##225466bc3e5f35baa5d07197bbc079345b77525e Cleanup after v0.12.23 release
 25.
-26. #5.PS E:\publik\Devops\1402\terraform> git log -S'func providerSource(' --oneline\
+26. #5.PS E:\publik\Devops\1402\terraform> git log -S'func providerSource(' --oneline
 27. ##8c928e8358 main: Consult local directories as potential mirrors of providers
 28. 
 28. #6. PS E:\publik\Devops\1402\terraform> git grep 'func globalPluginDirs' - поиск   комита  
